@@ -1,7 +1,23 @@
 @charset "UTF-8";
 
-body {
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
@@ -10,20 +26,47 @@ header {
     text-align: center;
 }
 
-h1 {
-    margin: 0px;
+header>h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+div {
+    padding: 10vh 0vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.img {
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    width: 400px;
 }
 
 #joaninha {
     background-image: url('imagens/background001.jpg');
     background-position: center;
-    padding: 10vh 0vh;
     background-attachment: fixed;
+    padding: 10vh 0vh;
+    padding-left: 30px;
 }
 
 #livro {
     background-image: url('imagens/background002.jpg');
     background-position: center;
-    padding: 10vh 0vh;
     background-attachment: fixed;
+    padding: 10vh 0vh;
+    padding-left: 30px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
