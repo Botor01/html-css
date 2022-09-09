@@ -51,6 +51,10 @@ header>p {
     padding-bottom: 50px;
 }
 
+.normal{
+    padding-bottom: 2em; 
+}
+
 .img {
     background-color: rgba(0, 0, 0, 0.274);
     color: white;
@@ -70,12 +74,16 @@ header>p {
     background-image: url('imagens/background001.jpg');
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
 }
 
 #livro {
     background-image: url('imagens/background002.jpg');
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
 }
 
 
